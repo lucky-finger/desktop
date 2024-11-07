@@ -1,25 +1,25 @@
 import { electronApp, is, optimizer } from '@electron-toolkit/utils';
 import { app, BrowserWindow, ipcMain, shell } from 'electron';
 import { join } from 'path';
-import icon from '../../resources/icon.png?asset';
+import { defaultWindowConstructorOptions } from './tools/windows';
 
-app.enableSandbox();
+// app.enableSandbox();
 function createWindow(): void {
   // Create the browser window.
   const mainWindow = new BrowserWindow({
-    width: 900,
-    height: 670,
-    show: false,
-    autoHideMenuBar: true,
-    ...(process.platform === 'linux' ? { icon } : {}),
-    webPreferences: {
-      preload: join(__dirname, '../preload/index.js'),
-      sandbox: false,
-    },
+    ...defaultWindowConstructorOptions,
+
+    // width: 900,
+    // height: 670,
+    // frame: true,
+    // autoHideMenuBar: true,
+    // titleBarStyle: 'hidden',
+    // ...(process.platform === 'linux' ? { icon } : {}),
   });
 
   mainWindow.on('ready-to-show', () => {
     mainWindow.show();
+    mainWindow.webContents.openDevTools();
   });
 
   mainWindow.webContents.setWindowOpenHandler((details) => {
