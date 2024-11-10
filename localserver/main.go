@@ -18,7 +18,7 @@ var (
 	logPath = "logs"
 )
 
-func main() {
+func _main() {
 	flag.BoolVar(&isDev, "dev", false, "是否是开发环境")
 	flag.StringVar(&dbFile, "db", "debug.db", "数据库文件")
 	flag.StringVar(&logLevel, "logLevel", "error", "日志级别")

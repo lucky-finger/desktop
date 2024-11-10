@@ -1,0 +1,10 @@
+type Teacher {
+  id: ID!
+  name: String!
+  students: [Student!]!
+}
+
+input NewTeacher {
+  name: String!
+  student_id: [ID!]!
+}
