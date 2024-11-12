@@ -5,6 +5,7 @@ go 1.23.2
 require (
 	github.com/99designs/gqlgen v0.17.55
 	github.com/glebarez/sqlite v1.11.0
+	github.com/lucky-finger/core v0.0.0-20241112103120-aadc235c9ce9
 	github.com/natefinch/lumberjack v2.0.0+incompatible
 	github.com/vektah/gqlparser/v2 v2.5.17
 	go.uber.org/zap v1.27.0
@@ -22,13 +23,14 @@ require (
 	github.com/hashicorp/golang-lru/v2 v2.0.7 // indirect
 	github.com/jinzhu/inflection v1.0.0 // indirect
 	github.com/jinzhu/now v1.1.5 // indirect
+	github.com/joho/godotenv v1.5.1 // indirect
 	github.com/mattn/go-isatty v0.0.20 // indirect
 	github.com/mitchellh/mapstructure v1.5.0 // indirect
 	github.com/pmezard/go-difflib v1.0.1-0.20181226105442-5d4384ee4fb2 // indirect
 	github.com/remyoudompheng/bigfft v0.0.0-20230129092748-24d4a6f8daec // indirect
 	github.com/sosodev/duration v1.3.1 // indirect
 	go.uber.org/multierr v1.10.0 // indirect
-	golang.org/x/sys v0.25.0 // indirect
+	golang.org/x/sys v0.26.0 // indirect
 	golang.org/x/text v0.20.0 // indirect
 	gopkg.in/natefinch/lumberjack.v2 v2.2.1 // indirect
 	modernc.org/libc v1.22.5 // indirect
