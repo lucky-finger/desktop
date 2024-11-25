@@ -42,6 +42,8 @@ github.com/jtolds/gls v4.20.0+incompatible h1:xdiiI2gbIgH/gLH7ADydsJ1uDOEzR8yvV7
 github.com/jtolds/gls v4.20.0+incompatible/go.mod h1:QJZ7F/aHp+rZTRtaJ1ow/lLfFfVYBRgL+9YlvaHOwJU=
 github.com/lucky-finger/core v0.0.0-20241112103120-aadc235c9ce9 h1:5iqDBpd8NDOhjmhlV8/6qOeRE5oXNBOHeJfOf4YJhbc=
 github.com/lucky-finger/core v0.0.0-20241112103120-aadc235c9ce9/go.mod h1:oZzNS2YnZ/VsMlwlcrwMgfAZdMuf0OQhv2jSjLdNo60=
+github.com/lucky-finger/core v0.0.0-20241125031358-98dbbe083d60 h1:xfTZnzaNuBca/cAYNX7Wwv8C1H3koFjH7OfzTBvd9eI=
+github.com/lucky-finger/core v0.0.0-20241125031358-98dbbe083d60/go.mod h1:oZzNS2YnZ/VsMlwlcrwMgfAZdMuf0OQhv2jSjLdNo60=
 github.com/mattn/go-isatty v0.0.20 h1:xfD0iDuEKnDkl03q4limB+vH+GxLEtL/jb4xVJSWWEY=
 github.com/mattn/go-isatty v0.0.20/go.mod h1:W+V8PltTTMOvKvAeJH7IuucS94S2C6jfK/D7dTCTo3Y=
 github.com/mitchellh/mapstructure v1.5.0 h1:jeMsZIYE/09sWLaz43PL7Gy6RuMjD2eJVyuac5Z2hdY=

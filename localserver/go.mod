@@ -5,7 +5,7 @@ go 1.23.2
 require (
 	github.com/99designs/gqlgen v0.17.55
 	github.com/glebarez/sqlite v1.11.0
-	github.com/lucky-finger/core v0.0.0-20241112103120-aadc235c9ce9
+	github.com/lucky-finger/core v0.0.0-20241125031358-98dbbe083d60
 	github.com/natefinch/lumberjack v2.0.0+incompatible
 	github.com/vektah/gqlparser/v2 v2.5.17
 	go.uber.org/zap v1.27.0
