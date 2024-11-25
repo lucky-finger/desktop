@@ -6,3 +6,4 @@ out
 .idea
 *.db
 /src/main/security/key.ts
+/localserver/security/exchange-private.pem
